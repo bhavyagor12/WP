@@ -1,0 +1,29 @@
+.Celcius{
+    height: 90vh;
+    display: grid;
+    place-items: center;
+}
+
+.Container {
+ 
+    border:2px solid whitesmoke;
+    height: 50vh;
+    width: 50vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    
+  }
+  .heading{
+    padding-bottom: 30px;
+  }
+  .form{
+    padding-bottom: 30px;
+  }
+  .button{
+    padding: 10px;
+  }
+  .Input{
+    font-size:medium;
+  }
