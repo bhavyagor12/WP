@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="getInfo()">Get info</button>
+    <script>
+        function getInfo(){
+        document.write("<p>the Browser is :</p>"+navigator.appName);
+        document.write("<p>the Screen width is :</p>"+window.screen.availWidth + "<p>the screen height is:" +window.screen.availHeight);
+        document.write("<p>The day the document was last updated :</p>"+document.lastModified);
+       
+       
+        }
+        </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Enter your name:</p>
+    <input type="text" id="name" />
+    <hr>
+    <button onClick="ucFirst()">Uppercase</button>
+    <script>
+function ucFirst(){
+var text = document.getElementById("name").value;
+str1 = text.charAt(0).toUpperCase();
+var restOfString = text.slice(1);
+console.log(restOfString);
+var result = str1 + restOfString
+alert("Uppercase string now is:"+result);
+}
+</script>
+
+</body>
+</html>
